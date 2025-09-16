@@ -1,0 +1,72 @@
+body {
+  font-family: serif;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background: #bcd9e0;
+  word-wrap: break-word;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  line-height: 0.6;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+  border: dashed 5px
+
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 0.5rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.7rem;
+}
+
+thead th {
+  background: #7a7676fd;
+  color: #fff;
+  font-size: 0.6rem;
+  
+}
+
+tbody th {
+  background: #f7f2f2;
+  font-weight: bold;
+}
+
+.break {
+  background: #e47d7d;
+  font-weight: bold;
+  height:auto;
+  font-size: 0.8rem;
+}
+
+.lunch {
+  background: #dd766f;
+  font-weight: bold;
+  height:auto;
+  font-size: 0.8rem;
+}
+
+.activity {
+  background: #8d928c;
+  font-weight: bold;
+  height:auto;
+  font-size: 0.8rem;
+}
+.footer {
+  font-size: 0.8rem;
+  
+}
